@@ -1,0 +1,108 @@
+/* Cq Design */
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+body{
+  font-family: 'Almarai', sans-serif;
+
+}
+
+header{
+  font-family: 'Almarai', sans-serif;
+  margin-bottom: 20%;
+}
+
+body{
+   font-family: 'Work Sans', sans-serif;
+   text-align: center;
+   font-family: Lucida Console, Courier, monospace;
+   background: -webkit-linear-gradient(left, #4C4C6D, white);
+
+   
+   
+}
+
+.MAIN{
+    margin-top: 20%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 800px;
+    background-color: #fcf9f6;
+    border: 1px solid rgba(13, 9, 61, 0.867);
+    border-radius: 20px;
+    margin: auto;
+}
+.faq-heading{
+    margin-top: 20%;
+    border-bottom: #140c0c;
+    padding: 20px 60px;
+    text-align: center;
+    color:#302978 ;
+    font-family: Lucida Console, Courier, monospace;
+    justify-content: center;
+   
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #302978;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+   
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F1F6F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+   color: rgb(17, 17, 64);
+    word-spacing: 2px;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+#aaa{
+  text-decoration: none;
+  color: #ece1e1;
+}
+
+#aaa :hover{
+  cursor: pointer;
+  text-decoration: underline;
+}

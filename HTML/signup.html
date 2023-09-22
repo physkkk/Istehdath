@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>  log in</title>
-    <title>Document</title>
-    <link rel="stylesheet"type="text/css" href="../CSS/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet"type="text/css" href="../CSS/signup.css">
 </head>
 <body>
     <div class="login-root">
@@ -43,13 +43,19 @@
           </div>
           <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
             <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
-              <h1><a href="http://blog.stackfindover.com/" rel="dofollow">تسجيل الدخول </a></h1>
+              <h1><a href="http://blog.stackfindover.com/" rel="dofollow">انشاء حساب </a></h1>
             </div>
             <div class="formbg-outer">
               <div class="formbg">
                 <div class="formbg-inner padding-horizontal--48">
-                  <span class="padding-bottom--15">سجل الدخول لحسابك </span>
+                    <span class="padding-bottom--15"></span>
                   <form id="stripe-login">
+
+                    <div class="field padding-bottom--24">
+                      <label for="name">اسم المستخدم </label>
+                      <input type="name" name="name">
+                    </div>
+
                     <div class="field padding-bottom--24">
                       <label for="email">البريد الالكتروني </label>
                       <input type="email" name="email">
@@ -63,6 +69,7 @@
                       </div>
                       <input type="password" name="password">
                     </div>
+
                     
                     <div class="field padding-bottom--24">
                       <input type="submit" name="submit" value="ارسال">
@@ -71,9 +78,9 @@
                   </form>
                 </div>
               </div>
-              <div class="footer-link padding-top--24">
-                <span>مستخدم جديد  ؟<a href="./signup.html">انشاء حساب </a>
+              
                 
+               
                 <!-- <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
                   <span><a href="#">© Stackfindover</a></span>
                   <span><a href="#">Contact</a></span>
@@ -84,9 +91,6 @@
           </div>
         </div>
       </div>
-
-      <script src="../JS/login.js">
-        
-      </script>
+      <script src="../JS/signup.js"></script>
 </body>
 </html>
