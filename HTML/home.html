@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/home.css">
 </head>
 <body>
@@ -18,8 +19,8 @@
     <nav>
       <a href="./home.html">الرئيسية</a>
       <a href="./projects.html">مشاريعنا</a>
-      <a href="./profile.html">انضم لنا</a>
-      <a href="./license.html">أخبارنا</a>
+      <a href="./apply.html">انضم لنا</a>
+      <a href="./news.html">أخبارنا</a>
       <a href="./services.html">خدماتنا</a>
     </nav>
   
@@ -36,13 +37,113 @@
   </header>
 
 <!-- background image -->
-<div class="background">
+<div class="background" data-aos="fade-up">
   <div class="bg">
-     <h2>خطط متكاملة الإبتكار.. حتى الابهار.. </h2> 
-     <!-- <img  id='bg' src="../IMG/bg2.png"> -->
+     <h2 data-aos="fade-right">خطط متكاملة الإبتكار
+      <br>
+    .. حتى الابهار 
+    </h2>
    </div>
 </div>   
 
+<!-- who are we section -->
+<div id="who" data-aos="zoom-out-up">
+  <h2>من نحن ؟ </h2>
+  
+  <p id="us" data-aos="zoom-in"></p>
+ 
+<div id="points" data-aos="flip-up">
+  </div>
+  <div class="all" id="all" data-aos="fade-up">
+
+  <div id="about" data-aos="zoom-out-up">
+  </div>
+
+  <div id="about2" data-aos="zoom-out-up">
+  </div>
+
+  <div id="about3" data-aos="zoom-out-up">
+</div>
+  </div>
+  </div>
+
+  <!-- skills -->
+  <div class="container" data-aos="zoom-in-up">
+     <div class="skill" id="one"><img src="../IMG/skill1.png">
+         <p>التخطيط الإستراتيجي</p></div>
+     <div class="skill" id="two"><img src="../IMG/skill2.png" >
+         <p>تعزيز الإنتاجية</p></div>
+     <div class="skill" id="thr"><img src="../IMG/skill3.png">
+         <p>الاستباقية والتطوير</p></div>
+     <div class="skill" id="four"><img src="../IMG/skill4.png">
+         <p>بناء العلامة التجارية</p></div>   
+  </div>
+<!-- numbers -->
+<h4 class="num" data-aos="fade-up">[ استحداث في أرقام ]</h4>
+<div id="num" data-aos="fade-left">
+  
+</div>
+
+<!-- our story -->
+<div class="storyy" data-aos="flip-up">
+  <h4 data-aos="fade-right">انطلاقتنا</h4>
+<div class="story" data-aos="fade-left">
+  <img src="#" id="mamlka" data-aos="fade-right">
+  <img  id="storyi" src="#" data-aos="fade-left">
+</div>
+</div>
+
+<!-- partners -->
+<h2 id="investh" data-aos="fade-up">الشريك الرئيسي</h2>
+<img id="invest" src="../IMG/invest.png" data-aos="zoom-in-up">
+<h2 id="partners" data-aos="fade-up">شركاؤنا</h2>
+<div class="conimg" data-aos="zoom-in-right">
+ 
+  <img src="" id="part">
+  <img src="" id="part">
+  <img src="" id="part">
+  </div>
+  <div class="conimg2" data-aos="zoom-in-left">
+  <img src="" id="part">
+  <img src="" id="part">
+  <img src="" id="part">
+</div>
+ <!--footer here -->
+ <footer  class="footer" data-aos="fade-up">
+    
+ </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+       <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+       <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+       <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+ </ul>
+ <ul class="menu">
+   <li class="menu__item"><a class="menu__link" href="#">التواصل
+    <h6> Istehdath@gmail.com</h6>
+   </a></li>
+   <li class="menu__item"><a class="menu__link" href="#"> ساعات العمل 
+    <h6>٨ص - ٧م</h6>
+   </a></li>
+   <li class="menu__item"><a class="menu__link" href="#"> الموقع
+    <h6>الرياض</h6>
+   </a></li>
+
+ </ul>
+ <p>&copy;2023 | جميع الحقوق محفوظة</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../JS/home.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
