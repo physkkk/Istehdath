@@ -5,6 +5,8 @@
     <title>  log in</title>
     <title>Document</title>
     <link rel="stylesheet"type="text/css" href="../CSS/login.css">
+    <script src="sweetalert2.all.min.js"></script>
+
 </head>
 <body>
     <div class="login-root">
@@ -50,10 +52,16 @@
                 <div class="formbg-inner padding-horizontal--48">
                   <span class="padding-bottom--15">سجل الدخول لحسابك </span>
                   <form id="stripe-login">
-                    <div class="field padding-bottom--24">
+                   <div class="field padding-bottom--24">
                       <label for="email">البريد الالكتروني </label>
                       <input type="email" name="email">
-                    </div>
+                    </div> 
+                    <!-- name here -->
+                    <div class="field padding-bottom--24">
+                      <label for="name" id="name">الاسم
+                      <input type="text" name="name" >
+                      </label>
+                    </div> 
                     <div class="field padding-bottom--24">
                       <div class="grid--50-50">
                         <label for="password"> كلمة المرور</label>
@@ -65,7 +73,10 @@
                     </div>
                     
                     <div class="field padding-bottom--24">
-                      <input type="submit" name="submit" value="ارسال">
+                      <button id="but">
+                        إرسال
+                      <!-- <input type="submit" name="submit" value="ارسال" id="but"> -->
+                      </button>
                     </div>
                     
                   </form>
@@ -73,20 +84,16 @@
               </div>
               <div class="footer-link padding-top--24">
                 <span>مستخدم جديد  ؟<a href="./signup.html">انشاء حساب </a>
-                
-                <!-- <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
-                  <span><a href="#">© Stackfindover</a></span>
-                  <span><a href="#">Contact</a></span>
-                  <span><a href="#">Privacy & terms</a></span>
-                </div> -->
+
               </div>
+              <button id="home"><span>&larr;</span><a href="./home.html">الرئيسية</a></button>
             </div>
           </div>
         </div>
       </div>
-
-      <script src="../JS/login.js">
-        
-      </script>
+    
+    
+      <script src="../JS/login.js"></script>
+   
 </body>
 </html>

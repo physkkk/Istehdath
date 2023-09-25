@@ -202,8 +202,8 @@ ul li{
   .fin, .re{
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     color: #fff;
-    background-color: rgba(97, 37, 207, 0.937);
-    border: 2px solid rgb(12, 233, 237);
+    background-color: rgba(55, 15, 129, 0.937);
+    border: 3px solid rgb(12, 233, 237);
     width: 500px;
     height: 350px;
     display: flex;
@@ -217,7 +217,7 @@ ul li{
     width: 100%;
     display: flex;
     justify-content: space-around;
-
+ 
   }
   
   .fin img ,.re img{
