@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/home.css">
+
 </head>
 <body>
     
@@ -26,7 +28,7 @@
   
     <div id="btns">
     <button id="button"class="button">
-      <span class="button-content"><a href="./form.html">عميل نخدمك</a></span>
+      <span class="button-content"><a href="./formp.html">عميل نخدمك</a></span>
   </button>
   
   
@@ -36,12 +38,16 @@
   </div>
   </header>
 
+ <!--  -->
+ <div id="data-list"></div>
+
 <!-- background image -->
+
 <div class="background" data-aos="fade-up">
   <div class="bg">
      <h2 data-aos="fade-right">خطط متكاملة الإبتكار
       <br>
-    .. حتى الابهار 
+     حتى الابهار ..
     </h2>
    </div>
 </div>   
@@ -162,6 +168,7 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../JS/home.js"></script>
+    <script src="../JS/form.js"></script>
     <script>
       AOS.init();
     </script>
