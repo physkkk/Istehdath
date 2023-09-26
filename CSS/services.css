@@ -29,7 +29,7 @@ header{
   width: 100%;
   height: 35px;
   background-color:#fff;
-  opacity: 0.8;
+  opacity: 1.8;
   padding: 1.5%;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
@@ -69,7 +69,7 @@ nav :hover{
   height: 3rem;
   padding: 0 2rem;
   border-radius: 1.5rem;
-  background: #0e57cc;
+  background: rgba(20, 144, 185, 0.828) ;
   background-size: 400%;
   color: #ededf2;
   border: none;
@@ -202,7 +202,7 @@ ul li{
   .fin, .re{
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     color: #fff;
-    background-color: rgba(55, 15, 129, 0.937);
+    background-color: rgba(23, 15, 129, 0.264);
     border: 3px solid rgb(12, 233, 237);
     width: 500px;
     height: 350px;
@@ -256,6 +256,11 @@ ul li{
     border: 1px solid rgb(48, 181, 181);
   
 }
+#s :hover{
+  background-color: #fff;
+  color: #06064a;
+  cursor: pointer;
+}
   .both{
     display: flex;
     justify-content: space-around;
@@ -281,5 +286,5 @@ ul li{
     background-size: cover;
     height: 50vh;
     position: center;
-    background-color: #070537;
+    background-color: #06064a;
   }

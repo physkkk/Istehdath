@@ -248,12 +248,11 @@ text-align: center;
  }
 
  #us{
-  
+  direction: rtl;
   word-spacing: 6px;
   width: 60%;
   margin: auto;
   font-size: 18px;
-
   
  }
 
@@ -372,27 +371,33 @@ background-color:#4ba380;
 }
 .story{
   text-align: center;
-  width: 90%;
+  width: 50%;
   margin-top: 12%;
+  background-repeat: no-repeat;
+  background-image: url('../IMG/homebg.jpg');
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin-left: -40%;
+  justify-content: start;
   align-items: end;
   justify-content: space-around;
+  height: 80vh;
+  border-radius: 10px;
+  background-size: contain;
 }
 
 #storyi{
-  position: relative;
-  width: 40%;
-  border: 2px solid grey;
-  border-radius: 10px;
+  /* position: relative;
+  width: 40%; */
+  /* border: 2px solid grey; */
+  /* border-radius: 10px; */
 }
 
 #mamlka{
   position: relative;
   width: 40%;
-  border: 2px solid grey;
-  border-radius: 10px;
+  /* border: 2px solid grey; */
+  /* border-radius: 10px; */
 }
 
 .storyy h4{
