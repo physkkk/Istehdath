@@ -1,0 +1,357 @@
+/* header - nav - logo */
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+body{
+  font-family: 'Almarai', sans-serif;
+
+}
+
+header{
+  font-family: 'Almarai', sans-serif;
+}
+*{
+  margin:0 ;
+  padding: 0;
+  font-weight: 700;
+ 
+}
+body{
+  direction: ltr;
+ 
+}
+header{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height:75px;
+  background-color:#fff;
+  opacity: 0.8;
+  padding: 1.5%;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+header img{
+  width: 10%;
+
+}
+nav{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 90%;
+  justify-content:center;
+  gap: 4%;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color:  rgba(28, 184, 142, 0.953);
+}
+
+
+
+ nav a{
+   text-decoration: none;
+   color: #082644;
+   font-family: 'Almarai', sans-serif;
+}
+
+.button a{
+  text-decoration: none;
+  color: #fff;
+  width: 3%;
+  
+}
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #1044be;
+  background-size: 400%;
+  color: #523f34;
+  border: none;
+  font-weight: 700;
+  font-family: 'Almarai', sans-serif;
+
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  color: #fff;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(11, 51, 210) 10.8%,
+    rgb(23, 223, 153) 94.3%
+  );
+  
+  transition: all 0.475s;
+}
+
+#btns{
+  display: flex;
+width: 34%;
+gap: 15%;
+
+}
+
+
+/* cards for the team */
+.card{
+    padding:0;
+    margin-top: 4%;
+  }
+  
+#last{
+  background-image: url('../IMG/h1-bg.jpg');
+  height: 45vh;
+  display: flex; 
+  color: rgb(127, 249, 255);
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 1%;
+  
+}
+.card img{
+    width: 100%;
+    height: 250px;
+}
+  .con{
+    margin-top: 4%;
+    background-color: #e2ebf3;
+    background-color: #03214f;
+    border-bottom:2px solid #5a05ca;
+    padding: 1%;
+  }
+.card-title{
+    margin-top: 10%;
+    text-align: center;
+}  
+#win{
+    text-align: center;
+    font-size: 32px;
+    color: rgba(43, 83, 226, 0.881);
+}
+
+.winner{
+  margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    height: 350px;
+    width: 70%;
+    background-color: #ebeff5ed;
+    border-radius: 10px;
+    
+}
+.winner p{
+    direction: rtl;
+    width: 380px;
+    margin-top: 8%;
+    padding: 2%;
+    border-left: 2px solid rgb(144, 0, 255);
+    border-bottom: 2px solid rgb(0, 187, 255);
+}
+#em{
+  text-align: center;
+ margin-top: 10%;
+ padding: 1%;
+ margin: auto;
+ width: 20%;
+ border-right: 2px solid rgb(55, 0, 255);
+    border-bottom: 2px solid rgb(0, 213, 255);
+}
+/* team cards */
+.win{
+ background-image: url('../IMG/bgn.jpeg');
+    gap: 10%;
+    margin-top: 15%;
+    height: 400px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.box {
+  border: 1px solid rgb(103, 12, 239);
+	border-radius: 150px;
+  width: 110%;
+	background:#fff;
+	position:relative;
+	overflow: hidden;
+	text-align:center;
+
+}
+.box:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    border-radius: 150px;
+    box-shadow: inset 0 0 25px rgba(0,0,0,0.30);
+    transition: all 0.3s ease;
+    background-image: linear-gradient(to right, #1581d4 0%, #64cdb5 100%);
+}
+.box:hover:before {
+    width: 100%;
+}
+.box:hover .image-wrapper {
+	padding:0;
+}
+.box:hover .box-desc {
+	color:#fff;
+}
+.box:hover .social li a {
+	background:#fff;
+	background-image: none;
+	color:#000;
+}
+.box:hover .social li a:hover {
+	background:#1d1d1d;
+	color:#fff;
+}
+.image-wrapper {
+    position: relative;
+	max-width: 210px;
+    max-height: 210px;
+	margin:0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 15px;
+    transition: all 0.5s ease;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.20);
+}
+.image-wrapper img {
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+.box-desc {
+	position:relative;
+}
+ul.social {
+	padding:0;
+}
+ul.social li {
+	display:inline-block;
+	list-style-type:none;
+}
+ul.social li a {
+	position:relative;
+	width: 36px;
+    height: 36px;
+	background-image: linear-gradient(to right, #3c70a4 0%, #64b2cd 100%);
+	display:inline-block;
+	line-height:36px;
+	border-radius:50%;
+	color:#fff;
+	transition: all .5s ease;
+}
+
+/* events */
+#e{
+  text-align: right;
+  margin-top: 4%;
+  padding: 8%;
+  color: #2dc5b6;
+  font-size: 46px;
+}
+#et{
+  text-align: right;
+  padding: 8%;
+  color: #f6faf9;
+  margin-top: -15%;
+  margin-right: 16%;
+  font-size: 46px;
+}
+#em{
+  margin-top: 20%;
+}
+span{
+  background-color: #062af3;
+}
+.event{
+  margin-top: 8%;
+  width: 60%;
+  background-image: url('../IMG/h1-bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+}
+.all-event{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(128, 0, 255);
+}
+/* ddvdf */
+.about-event{
+ color: #fff;
+ background-color: #032247;
+  width: 40%;
+  height: 420px;
+  margin-top: 13%;
+  padding: 4%;
+  border-top:3px solid #6907e9;
+
+}
+.about-event img{
+  width: 320px;
+  height: 160px;
+  background-color: #21c4d0;
+  border-radius: 6px;
+  margin-top: 1%;
+  border-left:3px solid #6b0de8;
+  border-top: 2px solid rgb(13, 136, 243);
+}
+.about-event p{
+  letter-spacing: 2px;
+}
+*{
+  margin:0 ;
+  padding: 0;
+}
+#par{
+  color: #7c7b7d;
+  font-size: small;
+  direction: rtl;
+  text-align: center;
+  padding: 4%;
+}
+.card-body{
+ text-align: center;
+}

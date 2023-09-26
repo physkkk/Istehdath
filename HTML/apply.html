@@ -6,19 +6,39 @@
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/apply.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
   
-     
-    <!-- <button id="button"class="button">
-      <span class="button-content"><a href="./form.html">عميل نخدمك</a></span>
-  </button>
-  
-  </header> -->
+ <!-- header-navbar-logo -->
+ <header>
+ 
+  <img dir="ltr" src="../IMG/logo.png">
 
-  <div class="bg9" >
+  
+  <nav>
+    <a href="./home.html">الرئيسية</a>
+    <a href="./projects.html">مشاريعنا</a>
+    <a href="./apply.html">انضم لنا</a>
+    <a href="./news.html">أخبارنا</a>
+    <a href="./services.html">خدماتنا</a>
+  </nav>
+
+  <div id="btns">
+  <button id="button"class="button">
+    <span class="button-content"><a href="./form.html">عميل نخدمك</a></span>
+</button>
+
+
+<button id="button"class="button">
+  <span class="button-content"><a href="./login.html">تسجيل دخول</a></span>
+</button>
+</div>
+</header>
+<!-- cards for jobs apply -->
+  <div class="bg9" data-aos="zoom-in">
   </div>
-  <h1 data-aos="zoom-in-right">انضم إلينا</h1>
+  <h1 data-aos="zoom-out-up">انضم إلينا</h1>
   <div class="all" >
 
 
@@ -51,7 +71,7 @@
 </div>
 
 <div class="all2">
-<div class="card" id="card" data-aos="zoom-in-right">
+<div class="card" id="card" data-aos="zoom-in-left">
   <div class ="Card2">
     <img src="../IMG/Bussnies.jpg" id="type">
     <p>منسق تطوير اعمال </p>
@@ -60,7 +80,7 @@
   </div>
 </div>
 
-  <div class="card" id="card" data-aos="zoom-in-right">
+  <div class="card" id="card" data-aos="zoom-in-left">
     <div class ="Card2">
       <img src="../IMG/Digital.jpg" id="type">
       <p>اخصائي حملات رقمية </p>
@@ -69,7 +89,7 @@
     </div>
   </div>
 
-    <div class="card" id="card" data-aos="zoom-in-right">
+    <div class="card" id="card" data-aos="zoom-in-left">
       <div class ="Card2">
         <img src="../IMG/senior.jpg" id="type">
         <p>مصمم جرافيك اول </p>
@@ -81,7 +101,7 @@
   </div>
 
     <script src="../JS/apply.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script>
       AOS.init();
     </script>

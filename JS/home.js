@@ -1,6 +1,6 @@
 //who are we section 
 let us=document.getElementById('us')
-us.innerText='نحن مكان هي شركة تسويق عقاري مملوكة لصندوق الاستثمارات  العامة ، تعمل على بناء استراتجية تسويقية '+" ترسم لك المسار حتى تنجح وتبني لك الثقة والرضا مع العملاء قبل وبعد إتمام كل صفقة لضمان نمو مبيعاتك"
+us.innerText='شركة استحداث  لإدارة  وتخطيط المشاريع متخصصة في تزويد عملائنا بجودة عالية من الحلول المبتكرة مع مجموعة واسعة من الخدمات من قبل فريقنا المحترف والخبير. نحن نسعى جاهدين لنكون تعزيزًا وتطويرًا ونجاحًا لمستثمرينا وأصحاب المشاريع.'
 
 
 let points=document.getElementById('points')
@@ -58,11 +58,14 @@ point2.addEventListener('click',function () {
 
 
 
+
 point3.addEventListener('click',function () {
+
+
     let p=document.createElement('p')
     p.innerText="وسمنا الي نتميز فيه بمشاريعنا"
     about3.appendChild(p)
-
+   
  point2.addEventListener('click',function () {
   all.removeChild(about3)
     console.log('removed');

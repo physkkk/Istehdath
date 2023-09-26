@@ -54,9 +54,9 @@
    .loginbackground-gridContainer {
       display: -ms-grid;
       display: grid;
-      -ms-grid-columns: [start] 1fr [left-gutter] (86.6px)[16] [left-gutter] 1fr [end];
+      -ms-grid-columns: [start] 1fr [left-gutter] (86.6px) [left-gutter] 1fr [end];
       grid-template-columns: [start] 1fr [left-gutter] repeat(16,86.6px) [left-gutter] 1fr [end];
-      -ms-grid-rows: [top] 1fr [top-gutter] (64px)[8] [bottom-gutter] 1fr [bottom];
+      -ms-grid-rows: [top] 1fr [top-gutter] (64px) [bottom-gutter] 1fr [bottom];
       grid-template-rows: [top] 1fr [top-gutter] repeat(8,64px) [bottom-gutter] 1fr [bottom];
       justify-content: center;
       margin: 0 -2%;
@@ -157,18 +157,17 @@
                   rgba(0, 0, 0, 0) 0px 0px 0px 0px;
   }
   
-  input[type="submit"] {
+button{
       background-color: #5469d4;
-      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
-                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
-                  rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
-                  rgb(84, 105, 212) 0px 0px 0px 1px, 
-                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
-                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
-                  rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+      border: 1px solid  #5469d4;
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,;
+      width: 340px;
       color: white;
       font-weight: 600;
       cursor: pointer;
+      border-radius: 6px;
+      height:40px;
+      font-size: medium;
   }
   .field-checkbox input {
       width: 20px;
@@ -233,3 +232,24 @@
       transform: translateX(0px);
     }
   } 
+
+  #home a{
+    color: #fff;
+  }
+  #home{
+    margin-left: 12%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    width: 150px;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  #home span{
+    color: #fff;
+  }
+  #home:hover{
+    color: #5418e9;
+    background-color: #5469d4;
+  }
