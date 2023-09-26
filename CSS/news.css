@@ -288,3 +288,13 @@ span{
   margin:0 ;
   padding: 0;
 }
+#par{
+  color: #7c7b7d;
+  font-size: small;
+  direction: rtl;
+  text-align: center;
+  padding: 4%;
+}
+.card-body{
+ text-align: center;
+}
