@@ -48,7 +48,7 @@ nav{
 nav :hover{
   text-decoration: underline;
   cursor: pointer;
-  color:  rgba(28, 184, 142, 0.953);
+  color:  rgba(28, 96, 184, 0.953);
 }
 
 
@@ -69,7 +69,7 @@ nav :hover{
   height: 3rem;
   padding: 0 2rem;
   border-radius: 1.5rem;
-  background: #1044be;
+  background: rgba(20, 144, 185, 0.828) ;
   background-size: 400%;
   color: #ededf2;
   border: none;
