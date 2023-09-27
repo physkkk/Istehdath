@@ -119,7 +119,7 @@ nav a:hover{
 .winner p{
     direction: rtl;
     width: 380px;
-    margin-top: 8%;
+    margin-top: 4%;
     padding: 2%;
     border-left: 2px solid rgb(144, 0, 255);
     border-bottom: 2px solid rgb(0, 187, 255);
@@ -137,7 +137,7 @@ nav a:hover{
 .win{
  background-image: url('../IMG/bgn.jpeg');
     gap: 10%;
-    margin-top: 15%;
+    margin-top: 6%;
     height: 400px;
     width:100%;
     display: flex;
@@ -239,7 +239,7 @@ ul.social li a {
   font-size: 46px;
 }
 #em{
-  margin-top: 20%;
+  margin-top: 10%;
 }
 span{
   background-color: #062af3;
@@ -247,6 +247,7 @@ span{
 .event{
   margin-top: 8%;
   width: 60%;
+  border-radius: 4px;
   background-image: url('../IMG/h1-bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -259,7 +260,7 @@ span{
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  border-bottom: 2px solid rgb(128, 0, 255);
+  border-bottom: 3px solid rgb(128, 0, 255);
 }
 /* ddvdf */
 .about-event{
