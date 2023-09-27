@@ -148,7 +148,7 @@ body {
   padding: 14px 25px;
   border: none;
   font-weight: 500;
-  background-color: #312986;
+  background-color: #1b2459;
   color: white;
   cursor: pointer;
   margin-top: 25px;
@@ -175,7 +175,7 @@ a {
 /* button */
 .b{
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
   }
   
   .b p{
@@ -187,27 +187,15 @@ a {
     text-align: center;
     border-radius: 10px;
     color: #faf5f5;
-    background-color: rgb(79, 69, 116);
+    background-color: #4d73a1;
     margin-top: 23%;
   }
   
   .b a{
     text-decoration: none;
     text-align: left;
-    color: #afc6e3;
+    color: #041c3b;
     
-  }
-
-  .back-button{
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
-    color: #5a3d1e;
-    border: 1px solid rgb(79, 69, 116);
-    background-color: rgb(79, 69, 116);
-  }
-  a{
-    color: #fbf7f7;
   }
 
 

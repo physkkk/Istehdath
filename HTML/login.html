@@ -6,8 +6,12 @@
   <title> log in</title>
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="../CSS/login.css">
-  <!-- <script src="sweetalert2.all.min.js"></script> -->
-  <script script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+  <script src="sweetalert2.all.min.js"></script>
+
 </head>
 
 <body>
@@ -57,12 +61,12 @@
               <form id="stripe-login">
                 <div class="field padding-bottom--24">
                   <label for="email">البريد الالكتروني </label>
-                  <input type="email" name="email">
+                  <input type="email" name="email" id="mail">
                 </div>
                 <!-- name here -->
                 <div class="field padding-bottom--24">
-                  <label for="name" id="name">الاسم
-                    <input type="text" name="name">
+                  <label for="name">الاسم
+                    <input type="text" id="name" name="name">
                   </label>
                 </div>
                 <div class="field padding-bottom--24">
@@ -76,7 +80,7 @@
                 </div>
 
                 <div class="field padding-bottom--24">
-                  <button id="but">
+                  <button id="b" onclick="adding()">
                     إرسال
                     <!-- <input type="submit" name="submit" value="ارسال" id="but"> -->
                   </button>
@@ -94,6 +98,7 @@
       </div>
     </div>
   </div>
+  <div id="data-list"></div>
 
   <!-- <link rel="stylesheet" href="/path/to/node_modules/sweetalert2/dist/sweetalert2.css"> -->
 

@@ -14,6 +14,8 @@ header{
 body{
    font-family: 'Work Sans', sans-serif;
    text-align: center;
+   font-family: Lucida Console, Courier, monospace;
+   background: -webkit-linear-gradient(left, #4C4C6D, white);
    background: -webkit-linear-gradient(left, #1a1a5d, rgb(130, 77, 163));
 
    
@@ -28,7 +30,7 @@ header{
   align-items: center;
   width: 100%;
   height: 35px;
-  background-color:#fefdfd;
+  background-color:#fff;
   opacity: 0.8;
   padding: 1.5%;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -116,7 +118,6 @@ gap: 15%;
 
 }
 
-
 .MAIN{
     margin-top: 20%;
     display: flex;
@@ -134,6 +135,7 @@ gap: 15%;
     padding: 20px 60px;
     text-align: center;
     color:#302978 ;
+    font-family: Lucida Console, Courier, monospace;
     justify-content: center;
    
 }

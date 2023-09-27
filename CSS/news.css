@@ -27,14 +27,14 @@ header{
   align-items: center;
   width: 100%;
   height:75px;
-  background-color:#fff;
+  background-color:#1b07a0;
   opacity: 0.8;
   padding: 1.5%;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 header img{
-  width: 10%;
+  width: 6%;
 
 }
 nav{
@@ -49,72 +49,15 @@ nav{
 nav a:hover{
   text-decoration: underline;
   cursor: pointer;
-  color:  rgba(28, 184, 142, 0.953);
+  color:  rgba(239, 246, 244, 0.953);
 }
 
 
 
  nav a{
    text-decoration: none;
-   color: #082644;
+   color: #e2ebf3;
    font-family: 'Almarai', sans-serif;
-}
-
-.button a{
-  text-decoration: none;
-  color: #fff;
-  width: 3%;
-  
-}
-.button {
-  position: relative;
-  overflow: hidden;
-  height: 3rem;
-  padding: 0 2rem;
-  border-radius: 1.5rem;
-  background: #1044be;
-  background-size: 400%;
-  color: #523f34;
-  border: none;
-  font-weight: 700;
-  font-family: 'Almarai', sans-serif;
-
-}
-
-.button:hover::before {
-  transform: scaleX(1);
-}
-
-.button-content {
-  position: relative;
-  z-index: 1;
-}
-
-.button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  color: #fff;
-  left: 0;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(
-    82.3deg,
-    rgb(11, 51, 210) 10.8%,
-    rgb(23, 223, 153) 94.3%
-  );
-  
-  transition: all 0.475s;
-}
-
-#btns{
-  display: flex;
-width: 34%;
-gap: 15%;
-
 }
 
 
@@ -176,7 +119,7 @@ gap: 15%;
 .winner p{
     direction: rtl;
     width: 380px;
-    margin-top: 8%;
+    margin-top: 4%;
     padding: 2%;
     border-left: 2px solid rgb(144, 0, 255);
     border-bottom: 2px solid rgb(0, 187, 255);
@@ -194,7 +137,7 @@ gap: 15%;
 .win{
  background-image: url('../IMG/bgn.jpeg');
     gap: 10%;
-    margin-top: 15%;
+    margin-top: 6%;
     height: 400px;
     width:100%;
     display: flex;
@@ -296,7 +239,7 @@ ul.social li a {
   font-size: 46px;
 }
 #em{
-  margin-top: 20%;
+  margin-top: 10%;
 }
 span{
   background-color: #062af3;
@@ -304,6 +247,7 @@ span{
 .event{
   margin-top: 8%;
   width: 60%;
+  border-radius: 4px;
   background-image: url('../IMG/h1-bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -316,7 +260,7 @@ span{
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  border-bottom: 2px solid rgb(128, 0, 255);
+  border-bottom: 3px solid rgb(128, 0, 255);
 }
 /* ddvdf */
 .about-event{

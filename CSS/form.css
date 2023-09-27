@@ -154,7 +154,7 @@ height: 100%;
 left: 50%;
 top: 50%;
 opacity: 0.95;
-background-image: url('../IMG/IMG\ 7.png');
+background-image: url('../IMG/h1-bg.jpg');
 clip-path: polygon(0 0, 100% 47%, 84% 100%, 0% 100%);
 object-fit: cover;
 background-position: center bottom;
@@ -386,4 +386,11 @@ img {
     margin-top: 2%;
     margin-bottom: 10%;
     background: -webkit-linear-gradient(left, #4a1076, #10ded7);
-   }   
+   }  
+   
+    h4{
+    color: #f8f5f5;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-left: 30%;
+   }
